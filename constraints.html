@@ -26,7 +26,26 @@ solvers, lead us to propose a model for analyzing the effect of the
 constraint <font face = "Verdana" size="2">ALLDIFFERENT</font>. Checking whether this constraint is satisfied
 can be quite costly, and we worked out a model to predict the
 probability that it would effectively reduce the sizes of the variable
-domains. We now have plans to apply this approach to other constraints.</p>
+domains. This approach can obviously be applied to other constraints.</p>
+
+<h2>Logical analysis of data (LAD).</h2>
+<p>
+	This work has been done in collaboration with Frederic Lardeux and Frederic Saubion from the University of Angers.
+	
+LAD aims at computing a logical justification for dividing a group of data (data instance) in two groups of observations.
+It is an interesting rule-based learning alternative to classic statistical learning techniques, with many practical applications. 
+However the computation of the groups characterization may be costly, depending on the properties of the data instances. 
+We provide effective tools for speeding up the computations, by first proposing several models for representing the data set of observations, 
+according to the information we have on it, then computing a priori probabilities that a given set of attributes does 
+characterize the two groups.
+These probabilities also allow for quick assessing of some properties of the real data at hand, 
+and may help to better analyze and understand the computational difficulties encountered by solving methods.  
+ 
+Once the models have been established, the mathematical tools for computing probabilities come from Analytic Combinatorics.
+A long-range goal of this paper is to show how the methods of Analytic Combinatorics can help in analyzing the performance of 
+various algorithms in LAD and related fields.
+
+</p>
 
  <a href="publications-constraints.html">List of publications</a>
 
